@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main-->
+    <string name="app_name">FunSpeak</string>
+    <string-array name="languages">
+        <item>Ingles</item>
+        <item>Español</item>
+    </string-array>
+    <string name="animals">Animales</string>
+    <string name="food">Comida</string>
+    <string name="verbs">Verbos</string>
+    <!--SelectThePhotoTask-->
+    <string name="select_photo">Selecciona la imagen correcta</string>
+    <!--CompleteThePhrase-->
+    <string name="complete_phrase">Completa la frase</string>
+    <!--FinalScore-->
+    <string name="final_score">Tu puntuacion fue:</string>
+    <string name="back">Regresar a la pantalla principal</string>
+</resources>
