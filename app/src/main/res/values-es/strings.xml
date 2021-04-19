@@ -11,6 +11,7 @@
         <item>Español</item>
     </string-array>
     <!--Main-->
+    <string name="to_learn">¿Que deseas Aprender?</string>
     <string name="animals">Animales</string>
     <string name="food">Comida</string>
     <string name="verbs">Verbos</string>

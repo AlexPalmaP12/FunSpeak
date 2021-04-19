@@ -10,6 +10,7 @@
         <item>Spanish</item>
     </string-array>
     <!--Main-->
+    <string name="to_learn">What you want to learn?</string>
     <string name="animals">Animals</string>
     <string name="food">Food</string>,
     <string name="verbs">Verbs</string>
