@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FunSpeak">
-        <activity android:name=".views.tasks.CompletePhraseTask"></activity>
-        <activity android:name=".views.Incorrect" />
-        <activity android:name=".views.Correct" />
-        <activity android:name=".views.FinalScore" />
-        <activity android:name=".views.tasks.SelectPhotoTask" />
-        <activity android:name=".views.MainActivity">
+        <activity android:name=".LanguageSelection">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".views.tasks.CompletePhraseTask" />
+        <activity android:name=".views.Incorrect" />
+        <activity android:name=".views.Correct" />
+        <activity android:name=".views.FinalScore" />
+        <activity android:name=".views.tasks.SelectPhotoTask" />
+        <activity android:name=".views.MainActivity" />
     </application>
 
 </manifest>

@@ -1,18 +1,25 @@
 <resources>
-    <!--Main-->
+    <!--LanguageSelection-->
     <string name="app_name">FunSpeak</string>
+    <string name="welcome">Welcome!</string>
+    <string name="select">Select the language to learn</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
     <string-array name="languages">
         <item>English</item>
         <item>Spanish</item>
     </string-array>
+    <!--Main-->
     <string name="animals">Animals</string>
     <string name="food">Food</string>,
     <string name="verbs">Verbs</string>
+    <string name="synonyms">Synonyms</string>
+    <string name="back">Back</string>
     <!--SelectThePhotoTask-->
     <string name="select_photo">Select the correct image</string>
     <!--CompleteThePhrase-->
     <string name="complete_phrase">Complete the phrase</string>
     <!--FinalScore-->
     <string name="final_score">Your score was:</string>
-    <string name="back">Back to main screen</string>
+    <string name="back_to_main">Back to main screen</string>
 </resources>

@@ -10,14 +10,14 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
+import com.example.funspeak.LanguageSelection;
 import com.example.funspeak.R;
 import com.example.funspeak.views.tasks.CompletePhraseTask;
 import com.example.funspeak.views.tasks.SelectPhotoTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button animals, food, verbs;
-    private Spinner spinner;
+    private Button animals, food, verbs, back;
     private int language;
 
     @Override
@@ -25,15 +25,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bindComponents();
-        setUpSpinner();
         setUpActions();
+
+        language = getIntent().getIntExtra("language",0);
     }
 
     public void bindComponents(){
         animals = findViewById(R.id.animals);
         food = findViewById(R.id.food);
         verbs = findViewById(R.id.verbs);
-        spinner = (Spinner) findViewById(R.id.languagesSpinner);
+        back = findViewById(R.id.back);
     }
 
     public void setUpActions(){
@@ -58,21 +59,13 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("type","Verbs");
             startActivity(intent);
         });
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-               language = position;
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
+        back.setOnClickListener(v -> {
+            startActivity(new Intent(this, LanguageSelection.class));
         });
     }
 
-    public void setUpSpinner(){
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.languages, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, LanguageSelection.class));
     }
 }
