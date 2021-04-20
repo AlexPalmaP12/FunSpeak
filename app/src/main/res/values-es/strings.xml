@@ -29,4 +29,15 @@
     <string name="easy">Facil</string>
     <string name="normal">Normal</string>
     <string name="hard">Dificil</string>
+
+    <!--Login Register -->
+    <string name="email_hint">ejemplo@funspeak.com</string>
+    <string name="pass_hint">Contraseña</string>
+    <string name="name_hint">Nombre</string>
+    <string name="address_hint">Dirección</string>
+    <string name="nickname_hint">Apodo</string>
+    <string name="btnLogin">Iniciar sesión</string>
+    <string name="orText">o</string>
+    <string name="btnRegister">Registrarse</string>
+    <string name="btnCancel">Cancelar</string>
 </resources>
