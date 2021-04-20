@@ -78,7 +78,7 @@ public class SelectPhotoTask extends AppCompatActivity {
         language = getIntent().getIntExtra("language", 0);
         type = getIntent().getStringExtra("type");
 
-        selectPhotoTaskModel = SelectPhotoTaskBuilder.generateSelectPhotoModel(type,language);
+        selectPhotoTaskModel = SelectPhotoTaskBuilder.generateSelectPhotoTaskModel(type,language);
         Picasso.get().load(selectPhotoTaskModel.getOption1ImageId()).fit().centerCrop().into(option1);
         Picasso.get().load(selectPhotoTaskModel.getOption2ImageId()).fit().centerCrop().into(option2);
         Picasso.get().load(selectPhotoTaskModel.getOption3ImageId()).fit().centerCrop().into(option3);
@@ -108,11 +108,11 @@ public class SelectPhotoTask extends AppCompatActivity {
         ProgressBar mProgressBar;
         mProgressBar=(ProgressBar)findViewById(R.id.selectPhotoTimer);
         mProgressBar.setProgress(i);
-        mCountDownTimer=new CountDownTimer(time,1000) {
+        mCountDownTimer=new CountDownTimer(time,50) {
             @Override
             public void onTick(long millisUntilFinished) {
                 i++;
-                mProgressBar.setProgress((int)i*100/(time/1000));
+                mProgressBar.setProgress((int)i*100/(time/50));
             }
             @Override
             public void onFinish() {

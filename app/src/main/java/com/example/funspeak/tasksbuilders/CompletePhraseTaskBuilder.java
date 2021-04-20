@@ -176,7 +176,7 @@ public class CompletePhraseTaskBuilder {
         }
     }
 
-    public static CompletePhraseTaskModel generateCompletePhraseTask(String type, int language){
+    public static CompletePhraseTaskModel generateCompletePhraseTaskModel(String type, int language){
         ArrayMap<String, String> map = typeMapping.get(type);
         int r = (int)(Math.random()*map.size());
         String phrase = map.keyAt(r);

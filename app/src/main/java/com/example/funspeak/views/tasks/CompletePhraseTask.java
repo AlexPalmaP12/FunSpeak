@@ -79,7 +79,7 @@ public class CompletePhraseTask extends AppCompatActivity {
         language = getIntent().getIntExtra("language", 0);
         type = getIntent().getStringExtra("type");
 
-        completePhraseTaskModel = CompletePhraseTaskBuilder.generateCompletePhraseTask(type,language);
+        completePhraseTaskModel = CompletePhraseTaskBuilder.generateCompletePhraseTaskModel(type,language);
         phrase.setText(completePhraseTaskModel.getPhrase());
         option1.setText(completePhraseTaskModel.getOption1());
         option2.setText(completePhraseTaskModel.getOption2());
@@ -109,11 +109,11 @@ public class CompletePhraseTask extends AppCompatActivity {
         time = getIntent().getIntExtra("time",5000);
         ProgressBar mProgressBar = progressBar;
         mProgressBar.setProgress(i);
-        mCountDownTimer=new CountDownTimer(time,1000) {
+        mCountDownTimer=new CountDownTimer(time,50) {
             @Override
             public void onTick(long millisUntilFinished) {
                 i++;
-                mProgressBar.setProgress((int)i*100/(time/1000));
+                mProgressBar.setProgress((int)i*100/(time/50));
             }
             @Override
             public void onFinish() {

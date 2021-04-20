@@ -168,7 +168,7 @@ public class SelectPhotoTaskBuilder {
         }
     }
 
-    public static SelectPhotoTaskModel generateSelectPhotoModel(String type, int language){
+    public static SelectPhotoTaskModel generateSelectPhotoTaskModel(String type, int language){
         ArrayMap<String, Integer> map = typesMapping.get(type);
         List<String> keys = new ArrayList<>();
         while(true){
