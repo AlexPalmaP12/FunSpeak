@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     tools:context=".views.register.RegisterActivity">
 
     <ImageView
@@ -29,6 +30,8 @@
         android:hint="@string/email_hint"
         android:inputType="textPersonName"
         android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoView" />
@@ -44,6 +47,8 @@
         android:inputType="textPersonName"
         android:text=""
         android:hint="@string/pass_hint"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ediTextEmail" />
@@ -58,6 +63,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/name_hint"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPass" />
@@ -72,6 +79,8 @@
         android:ems="10"
         android:hint="@string/nickname_hint"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +96,8 @@
         android:ems="10"
         android:hint="@string/address_hint"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,6 +112,7 @@
         android:layout_marginEnd="100dp"
         android:onClick="btnRegisterAction"
         android:text="@string/btnRegister"
+        app:backgroundTint="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAddress" />
@@ -115,6 +127,7 @@
         android:layout_marginEnd="100dp"
         android:text="@string/btnCancel"
         android:onClick="btnCancelAction"
+        app:backgroundTint="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />

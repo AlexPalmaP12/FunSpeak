@@ -31,7 +31,7 @@
 
     <!--Login Register -->
     <string name="email_hint">example@funspeak.com</string>
-    <string name="pass_hint">password</string>
+    <string name="pass_hint">Password</string>
     <string name="name_hint">Name</string>
     <string name="address_hint">Address</string>
     <string name="nickname_hint">Nickname</string>

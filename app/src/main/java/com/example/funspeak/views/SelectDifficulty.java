@@ -38,9 +38,4 @@ public class SelectDifficulty extends AppCompatActivity {
         intent.putExtra("max",max);
         startActivity(intent);
     }
-
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(this, MainActivity.class));
-    }
 }

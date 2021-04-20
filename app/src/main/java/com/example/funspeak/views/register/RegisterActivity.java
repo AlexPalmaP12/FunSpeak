@@ -43,7 +43,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void btnRegisterAction(View view){
-        Toast.makeText(this, "btnRegisterAction", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "btnRegisterAction", Toast.LENGTH_SHORT).show();
         String email = editTextEmail.getText().toString();
         String pass = editTextPass.getText().toString();
         if (email.length() > 0 && pass.length() > 0){

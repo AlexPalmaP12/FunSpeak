@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
         intent.putExtra("language", language);
         intent.putExtra("type",type);
-        startActivity(intent);
         Intent intent2 = new Intent(this, SelectDifficulty.class);
         intent2.putExtra("intent", intent);
         startActivity(intent2);
