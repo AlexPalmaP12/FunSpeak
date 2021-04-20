@@ -21,7 +21,7 @@ public class CompletePhraseTask extends AppCompatActivity {
     private TextView phrase, nu1, nu2;
     private Button option1, option2, option3, option4;
     private ProgressBar progressBar;
-    private int i, max, correct, incorrect, language;
+    private int i, max, correct, incorrect, language, time;
     private CountDownTimer mCountDownTimer;
     private String type;
     private CompletePhraseTaskModel completePhraseTaskModel;
@@ -59,6 +59,7 @@ public class CompletePhraseTask extends AppCompatActivity {
         intent.putExtra("type", type);
         intent.putExtra("language",language);
         intent.putExtra("max",max);
+        intent.putExtra("time",time);
         Intent middleIntent;
         if(correct) {
             intent.putExtra("correct", this.correct + 1);
@@ -105,13 +106,14 @@ public class CompletePhraseTask extends AppCompatActivity {
     }
 
     public void setUpTimer(){
+        time = getIntent().getIntExtra("time",5000);
         ProgressBar mProgressBar = progressBar;
         mProgressBar.setProgress(i);
-        mCountDownTimer=new CountDownTimer(5000,1000) {
+        mCountDownTimer=new CountDownTimer(time,1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 i++;
-                mProgressBar.setProgress((int)i*100/(5000/1000));
+                mProgressBar.setProgress((int)i*100/(time/1000));
             }
             @Override
             public void onFinish() {

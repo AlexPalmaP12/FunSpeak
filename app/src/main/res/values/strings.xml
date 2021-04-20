@@ -23,4 +23,9 @@
     <!--FinalScore-->
     <string name="final_score">Your score was:</string>
     <string name="back_to_main">Back to main screen</string>
+    <!--SelectDifficulty-->
+    <string name="select_difficulty">Select a Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
 </resources>

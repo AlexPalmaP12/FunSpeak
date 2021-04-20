@@ -22,7 +22,7 @@ public class SelectPhotoTask extends AppCompatActivity {
     private ImageView option1, option2, option3, option4;
     private TextView selectPhoto, nu1, nu2;
     private SelectPhotoTaskModel selectPhotoTaskModel;
-    private int i, max, correct, incorrect, language;
+    private int i, max, correct, incorrect, language, time;
     private String type;
     private CountDownTimer mCountDownTimer;
 
@@ -59,6 +59,7 @@ public class SelectPhotoTask extends AppCompatActivity {
         intent.putExtra("type", type);
         intent.putExtra("language",language);
         intent.putExtra("max",max);
+        intent.putExtra("time",time);
         Intent middleIntent;
         if(correct) {
             intent.putExtra("correct", this.correct + 1);
@@ -103,14 +104,15 @@ public class SelectPhotoTask extends AppCompatActivity {
     }
 
     public void setUpTimer(){
+        time = getIntent().getIntExtra("time",5000);
         ProgressBar mProgressBar;
         mProgressBar=(ProgressBar)findViewById(R.id.selectPhotoTimer);
         mProgressBar.setProgress(i);
-        mCountDownTimer=new CountDownTimer(5000,1000) {
+        mCountDownTimer=new CountDownTimer(time,1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 i++;
-                mProgressBar.setProgress((int)i*100/(5000/1000));
+                mProgressBar.setProgress((int)i*100/(time/1000));
             }
             @Override
             public void onFinish() {

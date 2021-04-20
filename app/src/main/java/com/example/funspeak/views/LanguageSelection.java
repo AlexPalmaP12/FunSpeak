@@ -1,15 +1,18 @@
-package com.example.funspeak;
+package com.example.funspeak.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
+import com.example.funspeak.R;
 import com.example.funspeak.views.MainActivity;
 
 public class LanguageSelection extends AppCompatActivity {
@@ -43,6 +46,7 @@ public class LanguageSelection extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                ((TextView) parent.getChildAt(0)).setTextColor(Color.WHITE);
                 language = position;
             }
             @Override

@@ -25,7 +25,7 @@ public class CompletePhraseTaskBuilder {
             "The _____ bark",
             "The _____ meows",
             "The cowboy rides _____",
-            "The _____ has a blowhole",
+            "The _____ has a blowhole in his head",
             "The _____ has big ears",
             "The _____ is the best friend of the men",
             "The _____ flies away",
@@ -62,7 +62,7 @@ public class CompletePhraseTaskBuilder {
             "Chester _____ biggest musical hits"
     };
     private static String[] verbAnswers = {
-            "Punchs",
+            "Punches",
             "Flies",
             "To Draw",
             "Sings"
@@ -73,7 +73,7 @@ public class CompletePhraseTaskBuilder {
             "The _____ bark",
             "The _____ meows",
             "The cowboy rides _____",
-            "The _____ has a blowhole",
+            "The _____ has a blowhole in his head",
             "The _____ has big ears",
             "The _____ is the best friend of the men",
             "The _____ flies away",
@@ -102,7 +102,7 @@ public class CompletePhraseTaskBuilder {
             "Cake",
             "Beef",
             "Burgers",
-            "Punchs",
+            "Punches",
             "Flies",
             "To Draw",
             "Sings"
@@ -111,7 +111,7 @@ public class CompletePhraseTaskBuilder {
             "El _____ ladra",
             "El _____ maulla",
             "El vaquero cabalga _____",
-            "El _____ tiene un orificio nasal",
+            "El _____ tiene un orificio en su cabeza",
             "El _____ tiene orejas grandes",
             "El _____ es el mejor amigo del hombre",
             "El _____ se va volando",

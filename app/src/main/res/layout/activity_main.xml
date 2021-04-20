@@ -6,46 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".views.MainActivity">
 
-    <!--<Spinner
-        android:id="@+id/languagesSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <!--<Button
-        android:id="@+id/animals"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/animals"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/languagesSpinner" />
-
-    <Button
-        android:id="@+id/food"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/food"
-        app:layout_constraintStart_toEndOf="@+id/animals"
-        app:layout_constraintTop_toBottomOf="@+id/languagesSpinner" />
-
-    <Button
-        android:id="@+id/verbs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/verbs"
-        app:layout_constraintStart_toEndOf="@+id/food"
-        app:layout_constraintTop_toBottomOf="@+id/languagesSpinner" />-->
     <Button
         android:id="@+id/back"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -77,9 +37,9 @@
         android:layout_width="160dp"
         android:layout_height="190dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/food"
         app:srcCompat="@drawable/sinonimos" />
 
@@ -87,9 +47,9 @@
         android:id="@+id/imageView4"
         android:layout_width="160dp"
         android:layout_height="190dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/animals"
         app:srcCompat="@drawable/verbos" />
@@ -99,11 +59,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="140dp"
         android:layout_height="43dp"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="12dp"
         android:text="@string/animals"
         android:textSize="16sp"
         app:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toStartOf="@+id/food"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -112,9 +73,9 @@
         android:layout_width="160dp"
         android:layout_height="190dp"
         android:layout_marginTop="120dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/comida" />
 
@@ -123,12 +84,13 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="140dp"
         android:layout_height="43dp"
-        android:layout_marginStart="236dp"
         android:layout_marginTop="12dp"
         android:text="@string/food"
         android:textSize="16sp"
         app:backgroundTint="#4CAF50"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/animals"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
@@ -136,11 +98,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="140dp"
         android:layout_height="43dp"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="12dp"
         android:text="@string/verbs"
         android:textSize="16sp"
         app:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -149,21 +112,22 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="140dp"
         android:layout_height="43dp"
-        android:layout_marginStart="236dp"
         android:layout_marginTop="12dp"
         android:text="@string/synonyms"
         android:textSize="16sp"
         app:backgroundTint="#4CAF50"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/verbs"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="160dp"
         android:layout_height="190dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/animales" />

@@ -24,4 +24,9 @@
     <!--FinalScore-->
     <string name="final_score">Tu puntuacion fue:</string>
     <string name="back_to_main">Regresar a la pantalla principal</string>
+    <!--SelectDifficulty-->
+    <string name="select_difficulty">Selecciona una dificultad</string>
+    <string name="easy">Facil</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Dificil</string>
 </resources>

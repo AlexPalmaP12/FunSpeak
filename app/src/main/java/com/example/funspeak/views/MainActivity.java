@@ -4,13 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Spinner;
 
-import com.example.funspeak.LanguageSelection;
 import com.example.funspeak.R;
 import com.example.funspeak.views.tasks.CompletePhraseTask;
 import com.example.funspeak.views.tasks.SelectPhotoTask;
@@ -38,30 +33,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setUpActions(){
-        animals.setOnClickListener((view)->{
-            int r = (int)(Math.random() * 2);
-            Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
-            intent.putExtra("language", language);
-            intent.putExtra("type","Animals");
-            startActivity(intent);
-        });
-        food.setOnClickListener((view)->{
-            int r = (int)(Math.random() * 2);
-            Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
-            intent.putExtra("language", language);
-            intent.putExtra("type","Food");
-            startActivity(intent);
-        });
-        verbs.setOnClickListener((view)->{
-            int r = (int)(Math.random() * 2);
-            Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
-            intent.putExtra("language", language);
-            intent.putExtra("type","Verbs");
-            startActivity(intent);
-        });
+        animals.setOnClickListener((view)->nextActivity("Animals"));
+        food.setOnClickListener((view)->nextActivity("Food"));
+        verbs.setOnClickListener((view)->nextActivity("Verbs"));
         back.setOnClickListener(v -> {
             startActivity(new Intent(this, LanguageSelection.class));
         });
+    }
+
+    public void nextActivity(String type){
+        int r = (int)(Math.random() * 2);
+        Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
+        intent.putExtra("language", language);
+        intent.putExtra("type",type);
+        startActivity(intent);
+        Intent intent2 = new Intent(this, SelectDifficulty.class);
+        intent2.putExtra("intent", intent);
+        startActivity(intent2);
     }
 
     @Override
