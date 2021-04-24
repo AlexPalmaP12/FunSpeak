@@ -39,4 +39,7 @@
     <string name="orText">or</string>
     <string name="btnRegister">Register</string>
     <string name="btnCancel">Cancel</string>
+
+    <!--SynonymsTask-->
+    <string name="synonyms_task">Select the synonym</string>
 </resources>

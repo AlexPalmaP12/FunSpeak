@@ -40,4 +40,7 @@
     <string name="orText">o</string>
     <string name="btnRegister">Registrarse</string>
     <string name="btnCancel">Cancelar</string>
+
+    <!--SynonymsTask-->
+    <string name="synonyms_task">Selecciona el sinonimo</string>
 </resources>

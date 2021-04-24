@@ -102,13 +102,13 @@
         android:text="@string/verbs"
         android:textSize="16sp"
         app:backgroundTint="#4CAF50"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/synonymsButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/synonymsButton"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="140dp"
         android:layout_height="43dp"
