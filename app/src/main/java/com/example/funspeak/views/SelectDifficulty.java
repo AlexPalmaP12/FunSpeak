@@ -27,9 +27,9 @@ public class SelectDifficulty extends AppCompatActivity {
     }
 
     public void setUpActions(){
-        easy.setOnClickListener(v -> nextActivity(10000,10));
-        normal.setOnClickListener(v -> nextActivity(5000,15));
-        hard.setOnClickListener(v -> nextActivity(2000, 20));
+        easy.setOnClickListener(v -> nextActivity(13000,10));
+        normal.setOnClickListener(v -> nextActivity(7000,15));
+        hard.setOnClickListener(v -> nextActivity(3000, 20));
     }
 
     public void nextActivity(int time, int max){
