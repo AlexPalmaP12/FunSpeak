@@ -31,7 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#4CAF50"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/button_background_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonym" />
 
@@ -41,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#4CAF50"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/button_background_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption1" />
 
@@ -51,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#4CAF50"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/button_background_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption2" />
 
@@ -61,7 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#4CAF50"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/button_background_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption3" />
 

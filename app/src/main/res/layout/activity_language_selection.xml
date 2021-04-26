@@ -54,13 +54,13 @@
 
     <Button
         android:id="@+id/start"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="183dp"
         android:layout_height="55dp"
         android:layout_marginTop="544dp"
         android:text="@string/start"
         android:textSize="18sp"
-        app:backgroundTint="#4CAF50"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/button_background_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

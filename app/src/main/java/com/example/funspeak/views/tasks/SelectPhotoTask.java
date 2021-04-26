@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -37,13 +39,66 @@ public class SelectPhotoTask extends AppCompatActivity {
     }
 
     public void setUpActions(){
-        option1.setOnClickListener(v -> compareImagesId(selectPhotoTaskModel.getOption1ImageId()));
-        option2.setOnClickListener(v -> compareImagesId(selectPhotoTaskModel.getOption2ImageId()));
-        option3.setOnClickListener(v -> compareImagesId(selectPhotoTaskModel.getOption3ImageId()));
-        option4.setOnClickListener(v ->compareImagesId(selectPhotoTaskModel.getOption4ImageId()));
+        option1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP){
+                    v.setAlpha((float) 1);
+                    compareImagesId(v, selectPhotoTaskModel.getOption1ImageId());
+                    return true;
+                }else if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    v.setAlpha((float) 0.3);
+                    //compareImagesId(v, selectPhotoTaskModel.getOption1ImageId());
+                }
+                return false;
+            }
+        });
+        option2.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP){
+                    v.setAlpha((float) 1);
+                    compareImagesId(v, selectPhotoTaskModel.getOption2ImageId());
+                    return true;
+                }else if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    v.setAlpha((float) 0.3);
+                    //compareImagesId(v, selectPhotoTaskModel.getOption1ImageId());
+                }
+                return false;
+            }
+        });
+        option3.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP){
+                    v.setAlpha((float) 1);
+                    compareImagesId(v, selectPhotoTaskModel.getOption3ImageId());
+                    return true;
+                }else if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    v.setAlpha((float) 0.3);
+                    //compareImagesId(v, selectPhotoTaskModel.getOption1ImageId());
+                }
+                return false;
+            }
+        });
+        option4.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP){
+                    v.setAlpha((float) 1);
+                    compareImagesId(v, selectPhotoTaskModel.getOption4ImageId());
+                    return true;
+                }else if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    v.setAlpha((float) 0.3);
+                    //compareImagesId(v, selectPhotoTaskModel.getOption1ImageId());
+                }
+                return false;
+            }
+        });
     }
 
-    public void compareImagesId(int imageId){
+    public void compareImagesId(View v, int imageId){
+
         next(imageId == selectPhotoTaskModel.getCorrectImageId());
     }
 
