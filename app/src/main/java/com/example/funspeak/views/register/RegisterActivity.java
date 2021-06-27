@@ -58,6 +58,8 @@ public class RegisterActivity extends AppCompatActivity {
                     if (task.isSuccessful()) {
                         createUserDocument();
                         Log.d("Register Success", "createUserWithEmail:success");
+                        Toast.makeText(RegisterActivity.this, "Account created Successfully",
+                                Toast.LENGTH_SHORT).show();
                         finish();
                     } else {
                         Log.w("Error Register User", "createUserWithEmail:failure", task.getException());
