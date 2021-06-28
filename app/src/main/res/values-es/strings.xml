@@ -31,7 +31,7 @@
     <string name="hard">Dificil</string>
 
     <!--Login Register -->
-    <string name="email_hint">ejemplo@funspeak.com</string>
+    <string name="email_hint">Correo Electrónico:ejemplo@funspeak.com</string>
     <string name="pass_hint">Contraseña</string>
     <string name="name_hint">Nombre</string>
     <string name="address_hint">Dirección</string>
