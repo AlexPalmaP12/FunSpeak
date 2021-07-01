@@ -71,6 +71,7 @@ public class LanguageSelection extends AppCompatActivity {
                     txt2.setText("Seleccione un idioma a aprender:");
                     start.setText("Iniciar");
                     exit.setText("Salir");
+                    language=1;
                 }
             }
             @Override

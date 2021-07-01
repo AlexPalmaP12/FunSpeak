@@ -12,10 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/back"
-        android:textColor="@drawable/button_text_color"
+        android:textColor="@color/funSpeakGreen"
         android:textSize="18sp"
         app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,6 +27,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/to_learn"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,7 +41,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/food"
-        app:srcCompat="@drawable/sinonimos" />
+        app:srcCompat="@drawable/sinonimos1" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -52,7 +52,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/animals"
-        app:srcCompat="@drawable/verbos" />
+        app:srcCompat="@drawable/verbos2" />
 
     <Button
         android:id="@+id/animals"
@@ -77,7 +77,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comida" />
+        app:srcCompat="@drawable/comidas1" />
 
     <Button
         android:id="@+id/food"
@@ -130,7 +130,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/animales" />
+        app:srcCompat="@drawable/animales1" />
 
     <ImageView
         android:id="@+id/imageView6"
