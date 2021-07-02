@@ -31,8 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
-        android:backgroundTint="@color/button_background_color"
+        app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phrase" />
 
@@ -42,8 +43,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
-        android:backgroundTint="@color/button_background_color"
+        app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phraseOption1" />
 
@@ -53,8 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
-        android:backgroundTint="@color/button_background_color"
+        app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phraseOption2" />
 
@@ -64,8 +67,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
-        android:backgroundTint="@color/button_background_color"
+        app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phraseOption3" />
 
