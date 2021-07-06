@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2271B3"
     tools:context=".views.tasks.SynonymsTask">
 
     <TextView
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/synonyms_task"
+        android:textColor="@color/white"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,6 +36,7 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonym" />
@@ -45,6 +49,7 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption1" />
@@ -57,6 +62,7 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption2" />
@@ -69,6 +75,7 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/spotify"
         android:textColor="@drawable/button_text_color"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/synonymOption3" />
@@ -90,6 +97,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,6 +110,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="/"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/synonymNu2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/synonymNu1"
@@ -111,6 +122,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView4"
