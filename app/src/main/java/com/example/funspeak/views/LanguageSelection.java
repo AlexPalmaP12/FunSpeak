@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,9 +14,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.funspeak.R;
 import com.example.funspeak.views.MainActivity;
+import com.squareup.picasso.Picasso;
 
 public class LanguageSelection extends AppCompatActivity {
 
@@ -59,13 +62,13 @@ public class LanguageSelection extends AppCompatActivity {
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.WHITE);
                 language = position;
                 String selection = spinner.getSelectedItem().toString();
-                if(selection.equals("English")){
+                if(selection.equals("English") || selection.equals("Ingles")){
                     img.setImageResource(R.drawable.usflag);
                     txt.setText("Welcome");
                     txt2.setText("Select a language to learn:");
                     start.setText("Start");
                     exit.setText("Exit");
-                } else if(selection.equals("Spanish")){
+                } else if(selection.equals("Spanish") || selection.equals("Español")){
                     img.setImageResource(R.drawable.espflag);
                     txt.setText("Bienvenido");
                     txt2.setText("Seleccione un idioma a aprender:");
