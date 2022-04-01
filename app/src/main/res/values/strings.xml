@@ -1,6 +1,6 @@
 <resources>
     <!--LanguageSelection-->
-    <string name="app_name">FunSpeak</string>
+    <string name="app_name">LitMath</string>
     <string name="welcome">Welcome!</string>
     <string name="select">Select the language to learn</string>
     <string name="start">Start</string>
@@ -11,11 +11,11 @@
 
     </string-array>
     <!--Main-->
-    <string name="to_learn">What you want to learn?</string>
-    <string name="animals">Animals</string>
-    <string name="food">Food</string>,
-    <string name="verbs">Verbs</string>
-    <string name="synonyms">Synonyms</string>
+    <string name="to_learn">Select scholarship</string>
+    <string name="animals">Preschool</string>
+    <string name="food">Elementary 1</string>,
+    <string name="verbs">Elementary 2</string>
+    <string name="synonyms">Elementary 3</string>
     <string name="back">Back</string>
     <!--SelectThePhotoTask-->
     <string name="select_photo">Select the correct image</string>
@@ -31,7 +31,9 @@
     <string name="hard">Hard</string>
 
     <!--Login Register -->
-    <string name="email_hint">Email: example@funspeak.com</string>
+    <string name="login_title">Welcome to LitMath</string>
+    <string name="login_sub">LogIn and start to learn!</string>
+    <string name="email_hint">Email: example@litmath.com</string>
     <string name="pass_hint">Password</string>
     <string name="name_hint">Name</string>
     <string name="address_hint">Address</string>

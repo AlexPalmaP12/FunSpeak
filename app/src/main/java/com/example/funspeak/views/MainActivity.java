@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void bindComponents(){
         animals = findViewById(R.id.animals);
-        food = findViewById(R.id.food);
-        verbs = findViewById(R.id.verbs);
+       food = findViewById(R.id.food);
+       verbs = findViewById(R.id.verbs);
         synonyms = findViewById(R.id.synonymsButton);
         back = findViewById(R.id.back);
     }
 
     public void setUpActions(){
-        animals.setOnClickListener((view)->nextActivity("Animals"));
-        food.setOnClickListener((view)->nextActivity("Food"));
-        verbs.setOnClickListener((view)->nextActivity("Verbs"));
+        animals.setOnClickListener((view)->nextActivity(""));
+        food.setOnClickListener((view)->nextActivity(""));
+        verbs.setOnClickListener((view)->nextActivity(""));
         synonyms.setOnClickListener((View)->nextActivity());
         back.setOnClickListener(v -> {
             startActivity(new Intent(this, LanguageSelection.class));
