@@ -13,7 +13,7 @@ import com.example.funspeak.views.tasks.SynonymsTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button animals, food, verbs, synonyms, back;
+    private Button preschool, elementary, elementary2, elementary3, back;
     private int language;
 
     @Override
@@ -27,40 +27,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void bindComponents(){
-        animals = findViewById(R.id.animals);
-       food = findViewById(R.id.food);
-       verbs = findViewById(R.id.verbs);
-        synonyms = findViewById(R.id.synonymsButton);
+        preschool = findViewById(R.id.preschool);
+        elementary = findViewById(R.id.elementary);
+        elementary2 = findViewById(R.id.elementary2);
+        elementary3 = findViewById(R.id.elementary3);
         back = findViewById(R.id.back);
     }
 
     public void setUpActions(){
-        animals.setOnClickListener((view)->nextActivity(""));
-        food.setOnClickListener((view)->nextActivity(""));
-        verbs.setOnClickListener((view)->nextActivity(""));
-        synonyms.setOnClickListener((View)->nextActivity());
+        preschool.setOnClickListener((view)->{
+            startActivity(new Intent(this, PreschoolSelect.class));
+        });
+        elementary.setOnClickListener((view)->{
+            startActivity(new Intent(this, ElementarySelect.class));
+        });
+        elementary2.setOnClickListener((view)->nextActivity(""));
+        elementary3.setOnClickListener((View)->nextActivity());
         back.setOnClickListener(v -> {
             startActivity(new Intent(this, LanguageSelection.class));
         });
     }
 
     public void nextActivity(){
-        int r = (int)(Math.random() * 2);
-        Intent intent = new Intent(this, SynonymsTask.class);
-        intent.putExtra("language", language);
-        Intent intent2 = new Intent(this, SelectDifficulty.class);
-        intent2.putExtra("intent", intent);
-        startActivity(intent2);
+
     }
 
     public void nextActivity(String type){
-        int r = (int)(Math.random() * 2);
-        Intent intent = new Intent(this,  r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
-        intent.putExtra("language", language);
-        intent.putExtra("type",type);
-        Intent intent2 = new Intent(this, SelectDifficulty.class);
-        intent2.putExtra("intent", intent);
-        startActivity(intent2);
+
     }
 
     @Override

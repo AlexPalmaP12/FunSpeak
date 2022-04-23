@@ -13,10 +13,20 @@
     <!--Main-->
     <string name="to_learn">Select scholarship</string>
     <string name="animals">Preschool</string>
-    <string name="food">Elementary 1</string>,
+    <string name="food">Elementary 1</string>
     <string name="verbs">Elementary 2</string>
     <string name="synonyms">Elementary 3</string>
+    <string name="next">Next</string>
     <string name="back">Back</string>
+    <!--Scholarship-->
+    <string name="count">Count</string>
+    <string name="patterns">Patterns</string>
+    <string name="Addition">Addition</string>
+    <string name="Subtraction">Subtraction</string>
+    <!--Elementary-->
+    <string name="geometry">Geometry</string>
+    <string name="study">Study</string>
+    <string name="test">Test</string>
     <!--SelectThePhotoTask-->
     <string name="select_photo">Select the correct image</string>
     <!--CompleteThePhrase-->

@@ -20,6 +20,11 @@
         <activity android:name=".views.SelectDifficulty" />
         <activity android:name=".views.LanguageSelection" />
         <activity android:name=".views.register.RegisterActivity" />
+        <activity android:name=".views.Preschool" />
+        <activity android:name=".views.PreschoolSelect"/>
+        <activity android:name=".views.Count"/>
+        <activity android:name=".views.Elementary" />
+        <activity android:name=".views.ElementarySelect" />
         <activity android:name=".views.tasks.CompletePhraseTask" />
         <activity android:name=".views.Incorrect" />
         <activity android:name=".views.Correct" />
