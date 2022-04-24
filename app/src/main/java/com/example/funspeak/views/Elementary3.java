@@ -1,21 +1,21 @@
 package com.example.funspeak.views;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.funspeak.R;
 
-public class Elementary extends AppCompatActivity {
+public class Elementary3 extends AppCompatActivity {
 
     private Button count, geometry, addition, subtraction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_course_elementary);
+        setContentView(R.layout.activity_course_elementary3);
         bindComponents();
         setUpActions();
     }
@@ -28,18 +28,10 @@ public class Elementary extends AppCompatActivity {
     }
 
     public void setUpActions(){
-        count.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryCount.class));
-        });
-        geometry.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryGeometry.class));
-        });
-        addition.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryAddition.class));
-        });
-        subtraction.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementarySubtraction.class));
-        });
+        count.setOnClickListener(v -> nextActivity(13000,10));
+        geometry.setOnClickListener(v -> nextActivity(13000,10));
+        addition.setOnClickListener(v -> nextActivity(13000,10));
+        subtraction.setOnClickListener(v -> nextActivity(13000,10));
     }
 
     public void nextActivity(int time, int max){
