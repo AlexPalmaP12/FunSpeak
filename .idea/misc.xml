@@ -11,9 +11,22 @@
         <entry key="..\:/Documents/GitHub/FunSpeak2/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Documents/GitHub/FunSpeak2/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Documents/GitHub/FunSpeak2/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/drawable/button_background.xml" value="0.3155" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/drawable/button_background_secondary.xml" value="0.3155" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/drawable/card_item_background_menu.xml" value="0.3155" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/drawable/edit_text_background.xml" value="0.3155" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_correct.xml" value="0.20697463768115942" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary.xml" value="0.33" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary2_select.xml" value="0.2989583333333333" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary3.xml" value="0.31354166666666666" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary3_select.xml" value="0.31354166666666666" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_addition.xml" value="0.29791666666666666" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_count.xml" value="0.33" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_geometry.xml" value="0.5" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_select.xml" value="0.33" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_substraction.xml" value="0.29791666666666666" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_elementary_subtraction.xml" value="0.29791666666666666" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_preschool.xml" value="0.33" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_preschool_count.xml" value="0.31354166666666666" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_course_preschool_select.xml" value="0.36666666666666664" />
@@ -23,6 +36,7 @@
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_select_difficulty.xml" value="0.29583333333333334" />
         <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_select_photo_task.xml" value="0.29583333333333334" />
+        <entry key="..\:/Documents/GitHub/LitMath/app/src/main/res/layout/activity_synonyms_task.xml" value="0.35104166666666664" />
       </map>
     </option>
   </component>
