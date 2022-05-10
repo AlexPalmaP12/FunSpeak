@@ -44,20 +44,20 @@
 
             <ImageView
                 android:id="@+id/imageView18"
-                android:layout_width="match_parent"
-                android:layout_height="237dp"
-                app:srcCompat="@drawable/dos" />
+                android:layout_width="290dp"
+                android:layout_height="196dp"
+                app:srcCompat="@drawable/animales" />
 
             <ImageView
                 android:id="@+id/imageView19"
-                android:layout_width="match_parent"
-                android:layout_height="241dp"
-                app:srcCompat="@drawable/tres" />
+                android:layout_width="264dp"
+                android:layout_height="196dp"
+                app:srcCompat="@drawable/apple" />
 
             <ImageView
                 android:id="@+id/imageView22"
                 android:layout_width="match_parent"
-                android:layout_height="263dp"
+                android:layout_height="wrap_content"
                 app:srcCompat="@drawable/cuatro" />
 
             <ImageView

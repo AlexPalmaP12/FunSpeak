@@ -24,15 +24,7 @@
         <activity android:name=".views.PreschoolSelect"/>
         <activity android:name=".views.Count"/>
         <activity android:name=".views.Elementary" />
-        <activity android:name=".views.ElementaryAddition" />
-        <activity android:name=".views.ElementaryCount" />
-        <activity android:name=".views.ElementaryGeometry" />
-        <activity android:name=".views.ElementarySubtraction" />
         <activity android:name=".views.ElementarySelect" />
-        <activity android:name=".views.Elementary2" />
-        <activity android:name=".views.Elementary2Select" />
-        <activity android:name=".views.Elementary3" />
-        <activity android:name=".views.Elementary3Select" />
         <activity android:name=".views.tasks.CompletePhraseTask" />
         <activity android:name=".views.Incorrect" />
         <activity android:name=".views.Correct" />

@@ -28,18 +28,10 @@ public class Elementary extends AppCompatActivity {
     }
 
     public void setUpActions(){
-        count.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryCount.class));
-        });
-        geometry.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryGeometry.class));
-        });
-        addition.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementaryAddition.class));
-        });
-        subtraction.setOnClickListener((view)->{
-            startActivity(new Intent(this, ElementarySubtraction.class));
-        });
+        count.setOnClickListener(v -> nextActivity(13000,10));
+        geometry.setOnClickListener(v -> nextActivity(13000,10));
+        addition.setOnClickListener(v -> nextActivity(13000,10));
+        subtraction.setOnClickListener(v -> nextActivity(13000,10));
     }
 
     public void nextActivity(int time, int max){

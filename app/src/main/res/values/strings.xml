@@ -23,8 +23,6 @@
     <string name="patterns">Patterns</string>
     <string name="Addition">Addition</string>
     <string name="Subtraction">Subtraction</string>
-    <string name="multiplication">Multiplication</string>
-    <string name="division">Division</string>
     <!--Elementary-->
     <string name="geometry">Geometry</string>
     <string name="study">Study</string>
@@ -55,6 +53,6 @@
     <string name="btnRegister">Register</string>
     <string name="btnCancel">Cancel</string>
 
-    <!--Elementary 1 Count-->
-    <string name="Elementary1C">Observe the following picture:</string>
+    <!--SynonymsTask-->
+    <string name="synonyms_task">Select the synonym</string>
 </resources>
