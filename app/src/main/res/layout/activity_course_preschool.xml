@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -77,6 +78,7 @@
         android:layout_marginTop="84dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/Subtraction"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
@@ -89,6 +91,7 @@
         android:layout_marginTop="96dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/count"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
@@ -101,6 +104,7 @@
         android:layout_marginTop="92dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/Addition"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
@@ -113,6 +117,7 @@
         android:layout_marginTop="76dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/patterns"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/imageView9"

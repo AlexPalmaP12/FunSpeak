@@ -23,8 +23,8 @@ public class Elementary extends AppCompatActivity {
     public void bindComponents(){
         count = findViewById(R.id.count2);
         geometry = findViewById(R.id.pattern2);
-        addition = findViewById(R.id.addition2);
-        subtraction = findViewById(R.id.subtraction2);
+        addition = findViewById(R.id.study);
+        subtraction = findViewById(R.id.test);
     }
 
     public void setUpActions(){

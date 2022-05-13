@@ -54,7 +54,7 @@ public class CompletePhraseTask extends AppCompatActivity {
             intent = new Intent(this, FinalScore.class);
         }else {
             int r = (int)(Math.random() * 2);
-            intent = new Intent(this, r == 0 ? SelectPhotoTask.class : CompletePhraseTask.class);
+            intent = new Intent(this,  CompletePhraseTask.class);
         }
         intent.putExtra("type", type);
         intent.putExtra("language",language);

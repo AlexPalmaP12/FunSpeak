@@ -23,8 +23,8 @@ public class Elementary2Select extends AppCompatActivity {
     }
 
     public void bindComponents(){
-        test = findViewById(R.id.subtraction2);
-        study = findViewById(R.id.addition2);
+        test = findViewById(R.id.test);
+        study = findViewById(R.id.study);
         back = findViewById(R.id.back);
     }
 
@@ -32,6 +32,9 @@ public class Elementary2Select extends AppCompatActivity {
 
         study.setOnClickListener((view)->{
             startActivity(new Intent(this, Elementary2.class));
+        });
+        test.setOnClickListener((view)->{
+            startActivity(new Intent(this, Elementary2Test.class));
         });
 
     }

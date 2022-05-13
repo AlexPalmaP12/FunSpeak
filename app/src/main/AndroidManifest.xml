@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FunSpeak">
         <activity android:name=".views.tasks.SynonymsTask"></activity>
-        <activity android:name=".views.login.LoginActivity" android:theme="@style/SplashTheme">
+        <activity android:name=".views.login.LoginActivity" android:theme="@style/SplashTheme" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,27 +18,47 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.SelectDifficulty" />
-        <activity android:name=".views.LanguageSelection" />
-        <activity android:name=".views.register.RegisterActivity" />
-        <activity android:name=".views.Preschool" />
-        <activity android:name=".views.PreschoolSelect"/>
-        <activity android:name=".views.Count"/>
-        <activity android:name=".views.Elementary" />
-        <activity android:name=".views.ElementaryAddition" />
-        <activity android:name=".views.ElementaryCount" />
-        <activity android:name=".views.ElementaryGeometry" />
-        <activity android:name=".views.ElementarySubtraction" />
-        <activity android:name=".views.ElementarySelect" />
-        <activity android:name=".views.Elementary2" />
-        <activity android:name=".views.Elementary2Select" />
-        <activity android:name=".views.Elementary3" />
-        <activity android:name=".views.Elementary3Select" />
-        <activity android:name=".views.tasks.CompletePhraseTask" />
+        <activity android:name=".views.LanguageSelection" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.register.RegisterActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <!--Preschool-->
+        <activity android:name=".views.Preschool" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.PreschoolSelect" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Count" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.PreschoolPatterns" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.PreschoolTest" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.PreschoolAddition" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.PreschoolSubtraction" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <!--Elementary1-->
+        <activity android:name=".views.Elementary" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementaryAddition" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementaryCount" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementaryGeometry" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementarySubtraction" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementarySelect" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.ElementaryTest" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <!--Elementary2-->
+        <activity android:name=".views.Elementary2" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Select" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Addition" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Division" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Multiplication" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Subtraction" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary2Test" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <!--Elementary3-->
+        <activity android:name=".views.Elementary3" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Select" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Addition" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Division" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Multiplication" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Subtraction" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".views.Elementary3Test" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
         <activity android:name=".views.Incorrect" />
         <activity android:name=".views.Correct" />
         <activity android:name=".views.FinalScore" />
         <activity android:name=".views.tasks.SelectPhotoTask" />
-        <activity android:name=".views.MainActivity" />
+        <activity android:name=".views.tasks.CompletePhraseTask" />
+        <activity android:name=".views.MainActivity" android:exported="true" android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 
 </manifest>

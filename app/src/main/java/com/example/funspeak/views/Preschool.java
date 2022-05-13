@@ -31,9 +31,15 @@ public class Preschool extends AppCompatActivity {
         count.setOnClickListener((view)->{
             startActivity(new Intent(this, Count.class));
         });
-        pattern.setOnClickListener(v -> nextActivity(13000,10));
-        addition.setOnClickListener(v -> nextActivity(13000,10));
-        subtraction.setOnClickListener(v -> nextActivity(13000,10));
+        pattern.setOnClickListener((view)->{
+            startActivity(new Intent(this, PreschoolPatterns.class));
+        });
+        addition.setOnClickListener((view)->{
+            startActivity(new Intent(this, PreschoolAddition.class));
+        });
+        subtraction.setOnClickListener((view)->{
+            startActivity(new Intent(this, PreschoolSubtraction.class));
+        });
     }
 
     public void nextActivity(int time, int max){

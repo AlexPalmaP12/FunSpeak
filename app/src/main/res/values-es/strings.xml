@@ -17,6 +17,17 @@
     <string name="verbs">2° de Primaria</string>
     <string name="synonyms">3° de Primaria</string>
     <string name="back">Atras</string>
+    <!--Scholarship-->
+    <string name="count">Conteo</string>
+    <string name="patterns">Patrones</string>
+    <string name="Addition">Sumas</string>
+    <string name="Subtraction">Restas</string>
+    <string name="multiplication">Multiplicacion</string>
+    <string name="division">Division</string>
+    <!--Elementary-->
+    <string name="geometry">Geometria</string>
+    <string name="study">Estudio</string>
+    <string name="test">Examen</string>
     <!--SelectThePhotoTask-->
     <string name="select_photo">Selecciona la imagen correcta</string>
     <!--CompleteThePhrase-->
@@ -44,5 +55,17 @@
     <string name="btnCancel">Cancelar</string>
 
     <!--SynonymsTask-->
-    <string name="synonyms_task">Selecciona el sinonimo</string>
+    <!--Elementary 1 Count-->
+    <string name="Elementary1C">Observa el siguiente video:</string>
+    <!--Elementary 2 Div-->
+    <string name="divexp"> Dividir significa repartir en partes iguales</string>
+    <string name="div32">Dividamos 468/22</string>
+    <string name="div33">¿Podemos dividir 4 entre 22? No, por lo que coge el siguiente número del dividendo. ¿Podemos dividir 46 entre 22? Sí</string>
+    <string name="div34">Ahora bien, ¿qué número multiplicado por 22 se acerca más, sin pasarse, a 46? Calcula poco a poco: 22×1= 22, 22×2= 44… ¡Aquí está! El número que tienes que escribir en el cociente es 2</string>
+    <string name="div35">A continuación, baje el 8 del dividendo:</string>
+    <string name="div36">¿Qué número multiplicado por 22, se acerca a 28? Como has calculado, el resultado es 1, es decir, 22×1=22. Si lo multiplicamos por 2, ya nos pasaríamos de la raya. Por lo tanto, escribe el 1 en el cociente y haz la resta de 28 – 22.</string>
+    <!--Elementary 3 Sum-->.
+    <string name="sum1">¿Y si al sumar las unidades el resultado fuera de dos cifras (es decir, 10 o más)? Luego escribimos en el resultado solo la cifra de la derecha y la de la izquierda la sumamos a la columna de las decenas.</string>
+    <string name="sum2">Como la suma de las unidades es igual a 13 (tiene dos cifras), pongo la cifra de la derecha (3) en el resultado y la de la izquierda (1) la sumo a la columna de las decenas.</string>
+
 </resources>

@@ -7,6 +7,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.funspeak.R;
+import com.example.funspeak.tasksbuilders.SelectPhotoTaskBuilder;
+import com.example.funspeak.views.tasks.SelectPhotoTask;
 
 public class PreschoolSelect extends AppCompatActivity {
     private Button test, study, back;
@@ -31,6 +33,9 @@ public class PreschoolSelect extends AppCompatActivity {
 
         study.setOnClickListener((view)->{
             startActivity(new Intent(this, Preschool.class));
+        });
+        test.setOnClickListener((view)->{
+            startActivity(new Intent(this, PreschoolTest.class));
         });
 
     }

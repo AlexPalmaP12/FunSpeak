@@ -16,7 +16,6 @@
     <string name="food">Elementary 1</string>
     <string name="verbs">Elementary 2</string>
     <string name="synonyms">Elementary 3</string>
-    <string name="next">Next</string>
     <string name="back">Back</string>
     <!--Scholarship-->
     <string name="count">Count</string>
@@ -56,5 +55,17 @@
     <string name="btnCancel">Cancel</string>
 
     <!--Elementary 1 Count-->
-    <string name="Elementary1C">Observe the following picture:</string>
+    <string name="Elementary1C">Observe the following video:</string>
+    <!--Elementary 2 Div-->
+    <string name="divexp">Divide means to share equally:</string>
+
+    <!--Elementary 3 Div -->
+    <string name="div32">Let´s divide 468/22</string>
+    <string name="div33">Since we can´t divide 4/22 we select 46/22</string>
+    <string name="div34">Now, what number multiplied by 22 comes closest, without going over, to 46? Calculate little by little: 22×1= 22, 22×2= 44… Here it is! The number you have to write in the quotient is 2</string>
+    <string name="div35">Next, bring down the 8 of the dividend:</string>
+    <string name="div36">What number multiplied by 22, is close to 28? As you have calculated, the result is 1, that is, 22×1=22. If we multiply it by 2, we would already go overboard. Therefore, write the 1 in the quotient and do the subtraction of 28 – 22.</string>
+    <!--Elementary 3 Sum-->.
+    <string name="sum1">What if when adding the units the result was two figures (that is, 10 or higher)? Then we write in the result only the figure on the right and the one on the left we add to the tens column.</string>
+    <string name="sum2">Since the sum of the units is equal to 13 (it has two figures), I put the figure on the right (3) in the result and the one on the left (1) I add it to the tens column.</string>
 </resources>

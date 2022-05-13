@@ -7,13 +7,16 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import com.example.funspeak.R;
+
+
+
 import com.example.funspeak.views.tasks.CompletePhraseTask;
 import com.example.funspeak.views.tasks.SelectPhotoTask;
 import com.example.funspeak.views.tasks.SynonymsTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button preschool, elementary, elementary2, elementary3, back;
+    private Button preschool, elementary, elementary2, elementary3, back ;
     private int language;
 
     @Override
@@ -22,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bindComponents();
         setUpActions();
+
 
         language = getIntent().getIntExtra("language",0);
     }
@@ -41,8 +45,12 @@ public class MainActivity extends AppCompatActivity {
         elementary.setOnClickListener((view)->{
             startActivity(new Intent(this, ElementarySelect.class));
         });
-        elementary2.setOnClickListener((view)->nextActivity(""));
-        elementary3.setOnClickListener((View)->nextActivity());
+        elementary2.setOnClickListener((view)->{
+            startActivity(new Intent(this, Elementary2Select.class));
+        });
+        elementary3.setOnClickListener((view)->{
+            startActivity(new Intent(this, Elementary3Select.class));
+        });
         back.setOnClickListener(v -> {
             startActivity(new Intent(this, LanguageSelection.class));
         });

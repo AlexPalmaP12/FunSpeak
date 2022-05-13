@@ -23,15 +23,18 @@ public class Elementary3Select extends AppCompatActivity {
     }
 
     public void bindComponents(){
-        test = findViewById(R.id.subtraction2);
-        study = findViewById(R.id.addition2);
-        back = findViewById(R.id.back);
+        study = findViewById(R.id.study);
+        test = findViewById(R.id.test);
+        //back = findViewById(R.id.back);
     }
 
     public void setUpActions(){
 
         study.setOnClickListener((view)->{
             startActivity(new Intent(this, Elementary3.class));
+        });
+        test.setOnClickListener((view)->{
+            startActivity(new Intent(this, Elementary3Test.class));
         });
 
     }
