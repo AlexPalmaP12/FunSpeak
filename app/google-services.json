@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "677018649430",
-    "project_id": "funspeak-80cf0",
-    "storage_bucket": "funspeak-80cf0.appspot.com"
+    "project_number": "811103737663",
+    "firebase_url": "https://funspeak-e0a1d-default-rtdb.firebaseio.com",
+    "project_id": "funspeak-e0a1d",
+    "storage_bucket": "funspeak-e0a1d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:677018649430:android:b89c4bc85dc2b375490cf7",
+        "mobilesdk_app_id": "1:811103737663:android:44e7846b0dc55db20c258a",
         "android_client_info": {
           "package_name": "com.example.funspeak"
         }
       },
       "oauth_client": [
         {
-          "client_id": "677018649430-krov9t3qgf939va5f1oeg21ukkbd4ii9.apps.googleusercontent.com",
+          "client_id": "811103737663-cg2loj5i9umi9v4847810k0kqoupven9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyADDwBzeBllhd2r5oev1FaZWsMaH95nwUk"
+          "current_key": "AIzaSyCrDU8zW__s2K75Vc-nhwOLtf_32ZdFrq8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "677018649430-krov9t3qgf939va5f1oeg21ukkbd4ii9.apps.googleusercontent.com",
+              "client_id": "811103737663-cg2loj5i9umi9v4847810k0kqoupven9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
