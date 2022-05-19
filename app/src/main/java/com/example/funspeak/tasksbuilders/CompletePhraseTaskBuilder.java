@@ -147,7 +147,7 @@ public class CompletePhraseTaskBuilder {
             "969",
             "114",
             "146",
-            "1",
+            "1234",
             "192"
     };
     private static String[] division3Phrases = {
@@ -355,7 +355,7 @@ public class CompletePhraseTaskBuilder {
             "969",
             "114",
             "146",
-            "1",
+            "1234",
             "192",
             "101",
             "43",
@@ -521,7 +521,7 @@ public class CompletePhraseTaskBuilder {
             "969",
             "114",
             "146",
-            "1",
+            "1234",
             "192",
             "101",
             "43",
